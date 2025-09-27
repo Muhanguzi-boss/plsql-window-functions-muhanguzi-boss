@@ -49,45 +49,46 @@ This analysis using PL/SQL window functions will reveal KFC Rwanda’s top-selli
 
 ```
 
-┌─────────────────┐ ┌─────────────────┐
-│ CUSTOMERS │ │ OUTLETS │
-├─────────────────┤ ├─────────────────┤
-│ customer_id (PK)│ │ branch_id (PK) │
-│ name │ │ branch_name │
-│ region │ │ location │
-│ phone │ │ manager_name │
-└─────────┬───────┘ └─────────┬───────┘
-│ │
-│ 1 │ 1
-│ │
-│ M │ M
-└──────┐ ┌────────┘
-│ │
-▼ ▼
-┌─────────────────────────┐
-│ TRANSACTIONS │
-├─────────────────────────┤
-│ transaction_id (PK) │
-│ customer_id (FK) │
-│ product_id (FK) │
-│ branch_id (FK) │
-│ sale_date │
-│ quantity │
-│ amount │
-└─────────┬───────────────┘
-│
-│ M
-│
-│ 1
-▼
-┌─────────────────┐
-│ PRODUCTS │
-├─────────────────┤
-│ product_id (PK) │
-│ name │
-│ category │
-│ unit_price │
-└─────────────────┘
+┌─────────────────┐         ┌─────────────────┐
+│    CUSTOMERS    │         │     OUTLETS     │
+├─────────────────┤         ├─────────────────┤
+│ customer_id (PK)│         │ branch_id (PK)  │
+│ name            │         │ branch_name     │
+│ region          │         │ location        │
+│ phone           │         │ manager_name    │
+└─────────┬───────┘         └─────────┬───────┘
+          │                           │
+          │ 1                         │ 1
+          │                           │
+          │ M                         │ M
+          └──────┐           ┌────────┘
+                 │           │
+                 ▼           ▼
+         ┌─────────────────────────┐
+         │       TRANSACTIONS       │
+         ├─────────────────────────┤
+         │ transaction_id (PK)      │
+         │ customer_id (FK)         │
+         │ product_id (FK)          │
+         │ branch_id (FK)           │
+         │ sale_date                │
+         │ quantity                 │
+         │ amount                   │
+         └─────────┬───────────────┘
+                   │
+                   │ M
+                   │
+                   │ 1
+                   ▼
+         ┌─────────────────┐
+         │     PRODUCTS     │
+         ├─────────────────┤
+         │ product_id (PK) │
+         │ name            │
+         │ category        │
+         │ unit_price      │
+         └─────────────────┘
+
 ```
 
 ### Business Rules and Relationships  
