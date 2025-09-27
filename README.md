@@ -2,6 +2,7 @@
 **Course:** Database Development with PL/SQL (INSY 8311)  
 **Student:** Muhanguzi Boss
 **Student ID:** 27810 
+
 **Assignment:** Individual Assignment I - Window Functions Mastery Project  
 **Submission Date:** September 29, 2025  
 **Repository:** plsql-window-functions-muhanguzi-boss 
@@ -46,7 +47,7 @@ This analysis using PL/SQL window functions will reveal KFC Rwanda’s top-selli
 
 ### Entity Relationship Diagram  
 
-```plain text
+```
 
 ┌─────────────────┐ ┌─────────────────┐
 │ CUSTOMERS │ │ OUTLETS │
