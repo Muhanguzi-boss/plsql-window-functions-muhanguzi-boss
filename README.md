@@ -109,13 +109,14 @@ This analysis using PL/SQL window functions will reveal KFC Rwanda’s top-selli
 
 **Screenshot 1: Database Schema Creation**  
 
-<img width="944" height="344" alt="image" src="https://github.com/user-attachments/assets/78795e44-00ff-4996-84ff-8caafc1066af" />
+<img width="266" height="149" alt="image" src="https://github.com/user-attachments/assets/6ca361bd-1756-4341-8c08-08630dbfa19b" />
+
 
   
 
 **Screenshot 2: Sample Data Insertion and Verification**  
 
-<img width="949" height="338" alt="image" src="https://github.com/user-attachments/assets/6dd5f522-0fd1-45cc-a2a9-78c20f962c3c" />
+
 
 
 ---
