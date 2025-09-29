@@ -302,16 +302,16 @@ plsql-window-functions-muhanguzi-boss/
 
 ## Step 7: References  
 
-1. Oracle Corporation. (2024). *Oracle Database SQL Language Reference - Analytic Functions*.  
-2. Oracle Corporation. (2024). *PL/SQL Language Reference*.  
+1. Oracle Corporation. (2024). *Oracle Database SQL Language Reference - Analytic Functions*.  https://docs.oracle.com/en/database/oracle/oracle-database/23/sqlrf/Conditions.html
+2. Oracle Corporation. (2024). *PL/SQL Language Reference*.   https://en.wikipedia.org/wiki/Oracle_Corporation#:~:text=Oracle%20Corporation%20is%20an%20American,Global%202000%20as%20of%202025.
 3. Course Lecture Notes (2025). *INSY 8311 – AUCA*.  
-4. TechOnTheNet (2024). *Oracle / PLSQL: Analytic Functions*.  
-5. W3Schools (2024). *SQL Window Functions*.  
-6. SQLBolt (2024). *Lesson 18: Queries with Expressions*.  
-7. Oracle Tutorial (2023). *Oracle Window Functions Tutorial (YouTube)*.  
-8. Programming with Mosh (2022). *SQL Window Functions Explained (YouTube)*.  
-9. KFC Rwanda (2024). *Company Website*.  
-10. Oracle Documentation (2024). *Database Concepts Guide*.  
+4. TechOnTheNet (2024). *Oracle / PLSQL: Analytic Functions*.  https://www.techonthenet.com/oracle/functions/index.php
+5. W3Schools (2024). *SQL Window Functions*.  https://www.w3schools.com/sql/sql_aggregate_functions.asp
+6. SQLBolt (2024). *Lesson 18: Queries with Expressions*.  https://www.techonthenet.com/oracle/index.php
+7. Oracle Tutorial (2023). *Oracle Window Functions Tutorial (YouTube)*.  https://youtu.be/Ww71knvhQ-s?si=kXez-xuKgS3Tyjc6
+8. Programming with Mosh (2022). *SQL Window Functions Explained (YouTube)*.  https://youtu.be/7S_tz1z_5bA?si=6idUw8s0ivmU1rW1
+9. KFC Rwanda (2024). *Company Website*.  https://kfc.rw/
+10. Oracle Documentation (2024). *Database Concepts Guide*.  https://www.oracle.com/
 
 ---
 
