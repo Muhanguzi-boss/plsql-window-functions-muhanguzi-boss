@@ -137,12 +137,15 @@ Functions: `ROW_NUMBER()`, `RANK()`, `DENSE_RANK()`, `PERCENT_RANK()`
 - Helps management adjust **menu promotions and stock**  
 
  *Screenshot 3: ROW_NUMBER Results* 
+<img width="689" height="213" alt="image" src="https://github.com/user-attachments/assets/f7e79bea-c645-4f28-bde7-30121104aad0" />
 
 
  *Screenshot 4: RANK vs DENSE_RANK Comparison* 
+<img width="808" height="213" alt="image" src="https://github.com/user-attachments/assets/8311cd2f-afd6-4b2a-b764-23d8b7c59c18" />
 
 
  *Screenshot 5: PERCENT_RANK Analysis*  
+<img width="730" height="194" alt="image" src="https://github.com/user-attachments/assets/78b273c6-4823-4f99-adc6-52ff3edfa49f" />
 
 
 
@@ -155,13 +158,17 @@ Functions: `SUM()`, `AVG()`, `MIN()`, `MAX()` with **ROWS vs RANGE**
 - Track **monthly averages** and **seasonal patterns**  
 
  *Screenshot 6: Running Totals*  
+<img width="393" height="200" alt="image" src="https://github.com/user-attachments/assets/ae1d2b62-6f93-4fb6-a2cf-83807053375d" />
 
 
  *Screenshot 7: ROWS vs RANGE Frame Comparison*  
 
+<img width="714" height="193" alt="image" src="https://github.com/user-attachments/assets/7b10dbb8-ed11-4888-9cb3-f7644927021b" />
 
 
  *Screenshot 8: Moving Averages*  
+ <img width="694" height="195" alt="image" src="https://github.com/user-attachments/assets/bf69ca37-9294-4480-b7a0-cd8308f844c2" />
+
 
 ---
 
@@ -172,14 +179,17 @@ Functions: `LAG()`, `LEAD()`
 - Forward-looking comparisons  
 
  *Screenshot 9: LAG() Previous Month*  
+<img width="672" height="198" alt="image" src="https://github.com/user-attachments/assets/acbe4d1b-f11d-41b5-9e39-1cf0541412b2" />
 
 
 
 *Screenshot 10: LEAD() Future Analysis*  
+<img width="652" height="189" alt="image" src="https://github.com/user-attachments/assets/3f08e708-f9f5-4e71-930e-9e2e9f9db0d7" />
 
 
 *Screenshot 11: Growth Percentages*  
 
+<img width="569" height="189" alt="image" src="https://github.com/user-attachments/assets/1d6b815d-677b-425e-8e0c-27cf890dc56d" />
 
 
 
@@ -192,12 +202,15 @@ Functions: `NTILE(4)`, `CUME_DIST()`
 - Identify **VIP vs Price-Sensitive** groups  
 
 *Screenshot 12: Customer Quartiles (NTILE)*  
+<img width="767" height="211" alt="image" src="https://github.com/user-attachments/assets/e6427550-9cdd-4492-8c03-02a1360f1c5b" />
 
 
 *Screenshot 13: Customer Cumulative Distribution*  
+<img width="827" height="217" alt="image" src="https://github.com/user-attachments/assets/5eda48fc-9aa6-4d1c-8e9a-4a3335c4020c" />
 
 
 *Screenshot 14: Segment Labels*  
+<img width="864" height="213" alt="image" src="https://github.com/user-attachments/assets/e67f5686-e33e-4b8e-b0a3-e87a80d08318" />
 
 
 
@@ -214,64 +227,47 @@ plsql-window-functions-muhanguzi-boss/
 │   ├── 01_schema_creation.sql          # Database schema setup (tables & constraints)
 │   ├── 02_sample_data_insert.sql       # Sample data insertion (KFC data)
 │   └── 03_window_functions_queries.sql # Window function queries (ranking, agg, nav, dist)
-├── screenshots/                        # All screenshots (21+ as required)
-│   ├── 01_schema_creation.png
-│   ├── 02_data_insertion_verification.png
-│   ├── 03_row_number_results.png
-│   ├── 04_rank_comparison.png
-│   ├── 05_percent_rank_analysis.png
-│   ├── 06_running_totals.png
-│   ├── 07_rows_vs_range_comparison.png
-│   ├── 08_moving_averages.png
-│   ├── 09_lag_previous_month.png
-│   ├── 10_lead_future_analysis.png
-│   ├── 11_growth_percentage.png
-│   ├── 12_ntile_customer_quartiles.png
-│   ├── 13_cume_dist_percentiles.png
-│   ├── 14_customer_segment_labels.png
-│   ├── 15_first_last_value_analysis.png
-│   ├── 16_advanced_ranking_ties.png
-│   ├── 17_window_frame_variations.png
-│   ├── 18_advanced_customer_analytics.png
-│   ├── 19_product_performance_matrix.png
-│   ├── 20_business_intelligence_summary.png
-│   └── 21_top_5_products_by_outlet.png
-└── .git/                                # Git internal files
-
-
+                      # Git internal files
 ```
 **Screenshot 15: FIRST_VALUE() and LAST_VALUE() Navigation Functions** 
+<img width="762" height="214" alt="image" src="https://github.com/user-attachments/assets/1d5df843-1455-44b5-abaa-85d158d7c98e" />
 
 
 *Shows the first and last sales values in each branch over the analysis period. Useful for identifying starting and ending trends for high-selling products.*
 
 **Screenshot 16: Advanced Ranking with Ties Handling**  
+<img width="931" height="216" alt="image" src="https://github.com/user-attachments/assets/4a31bbf9-6935-464f-b909-6733629147d9" />
 
 
 *Illustrates how tied sales are ranked using RANK() and DENSE_RANK(), highlighting how KFC Rwanda outlets handle identical top-selling products.*
 
 **Screenshot 17: Window Frame Variations**  
+<img width="823" height="190" alt="image" src="https://github.com/user-attachments/assets/228b3f58-fafa-4a67-85c1-decf9d529cac" />
 
 
 *Demonstrates different ROWS frame specifications (ROWS BETWEEN vs RANGE BETWEEN) in aggregate functions, showing how cumulative totals and averages can vary depending on the frame.*
 
 **Screenshot 18: Advanced Customer Analytics**  
 
+<img width="957" height="190" alt="image" src="https://github.com/user-attachments/assets/d43f1a81-0083-479d-92e6-8d97ad7bd1ca" />
 
 *Multi-level customer analysis including spending tiers, frequency, and loyalty patterns. Helps identify VIP, regular, and price-sensitive customer segments.*
 
 **Screenshot 19: Product Performance Matrix** 
+<img width="987" height="184" alt="image" src="https://github.com/user-attachments/assets/a05dbfa6-dc26-4e20-91ac-821b7271dd1d" />
 
 
 *Matrix showing product sales across all outlets, combining ranking and aggregate measures. Highlights products with the highest market share per location.*
 
 **Screenshot 20: Business Intelligence Summary**  
+<img width="985" height="61" alt="image" src="https://github.com/user-attachments/assets/65692b22-a28a-42e5-ac60-8bc596f854a7" />
 
 
 *Executive-level summary dashboard compiling top products, sales trends, growth percentages, and customer segmentation. Provides actionable insights for KFC Rwanda management.*
 
 **Screenshot 21: Top 5 Products per Outlet**  
 
+<img width="707" height="211" alt="image" src="https://github.com/user-attachments/assets/bea831ab-ba05-43fd-b8ea-49de337094df" />
 
 
 *Final ranking of the top 5 menu items per outlet using `RANK() OVER(PARTITION BY branch ORDER BY sales DESC)`. Identifies key performers for inventory allocation and promotional focus.*
