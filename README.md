@@ -319,10 +319,7 @@ plsql-window-functions-muhanguzi-boss/
 All sources used in this project have been properly cited. The application of PL/SQL window functions to KFC Rwanda’s business scenario represents my own analytical work. The Rwanda fast-food context is based on my research and understanding.
 
 ---
-Repository: plsql-window-functions-muhanguzi-boss
-Submission Date: September 29, 2025
-Course: Database Development with PL/SQL (INSY 8311)
-Institution: Adventist University of Central Africa (AUCA)
+
 
 
 
